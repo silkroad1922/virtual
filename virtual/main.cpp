@@ -93,6 +93,13 @@ int function(int a, int b)
 {
 	return a + b;
 }
+
+
+void foo()
+{
+	std::cout << "HELLO WORLD" << std::endl;
+
+}
 int main()
 {
 
