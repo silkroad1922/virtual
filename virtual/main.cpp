@@ -93,6 +93,10 @@ int mult(int a, int b)
 {
 	return a * b;
 }
+
+void foo() {
+	std::cout << "SDA" << std::endl;
+}
 int main()
 {
 
