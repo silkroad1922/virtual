@@ -88,6 +88,11 @@ void ClientCode(string path, Base& obj)
 	}
 
 }
+
+int mult(int a, int b)
+{
+	return a * b;
+}
 int main()
 {
 
