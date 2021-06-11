@@ -101,6 +101,7 @@ void foo()
 }
 
 
+
 int main()
 {
 
@@ -113,6 +114,8 @@ int main()
 	std::cout << endl;
 
 	delete base;
+	
+	std::cout<<"test new branch";
 
 
 	return 0;
