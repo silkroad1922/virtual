@@ -89,13 +89,9 @@ void ClientCode(string path, Base& obj)
 
 }
 
-int mult(int a, int b)
+int function(int a, int b)
 {
-	return a * b;
-}
-
-void foo() {
-	std::cout << "SDA" << std::endl;
+	return a + b;
 }
 int main()
 {
@@ -106,6 +102,7 @@ int main()
 	base->SetNext(new A)->SetNext(new B);
 
 	ClientCode("test.txt",*base);
+	std::cout << endl;
 
 	delete base;
 
